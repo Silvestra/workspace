@@ -4,9 +4,11 @@ USER="Silvestra"
 COMPONENT_PREFIX="src/${USER}/Component"
 BUNDLE_PREFIX="src/${USER}/Bundle"
 
-REPOSITORIES=( 
+REPOSITORIES=(
+    "Banner:${COMPONENT_PREFIX}/Banner"
     "Cache:${COMPONENT_PREFIX}/Cache"
     "Form:${COMPONENT_PREFIX}/Form"
+    "Locale:${COMPONENT_PREFIX}/Locale"
     "Media:${COMPONENT_PREFIX}/Media"
     "Notification:${COMPONENT_PREFIX}/Notification"
     "Seo:${COMPONENT_PREFIX}/Seo"
@@ -15,9 +17,11 @@ REPOSITORIES=(
 
     "AdminBundle:${BUNDLE_PREFIX}/AdminBundle"
     "AdminUserBundle:${BUNDLE_PREFIX}/Admin/UserBundle"
+    "BannerBundle:${BUNDLE_PREFIX}/BannerBundle"
     "CacheBundle:${BUNDLE_PREFIX}/CacheBundle"
     "FormBundle:${BUNDLE_PREFIX}/FormBundle"
     "FrontendBundle:${BUNDLE_PREFIX}/FrontendBundle"
+    "LocaleBundle:${BUNDLE_PREFIX}/LocaleBundle"
     "MediaBundle:${BUNDLE_PREFIX}/MediaBundle"
     "NotificationBundle:${BUNDLE_PREFIX}/NotificationBundle"
     "SeoBundle:${BUNDLE_PREFIX}/SeoBundle"
