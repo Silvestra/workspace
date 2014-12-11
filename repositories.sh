@@ -5,6 +5,7 @@ COMPONENT_PREFIX="src/${USER}/Component"
 BUNDLE_PREFIX="src/${USER}/Bundle"
 
 REPOSITORIES=(
+    "Admin:${COMPONENT_PREFIX}/Admin"
     "Banner:${COMPONENT_PREFIX}/Banner"
     "Cache:${COMPONENT_PREFIX}/Cache"
     "Form:${COMPONENT_PREFIX}/Form"
