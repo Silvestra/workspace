@@ -14,6 +14,7 @@ REPOSITORIES=(
     "Notification:${COMPONENT_PREFIX}/Notification"
     "Seo:${COMPONENT_PREFIX}/Seo"
     "Site:${COMPONENT_PREFIX}/Site"
+    "Sitemap:${COMPONENT_PREFIX}/Sitemap"
     "Text:${COMPONENT_PREFIX}/Text"
 
     "AdminBundle:${BUNDLE_PREFIX}/AdminBundle"
@@ -27,6 +28,7 @@ REPOSITORIES=(
     "NotificationBundle:${BUNDLE_PREFIX}/NotificationBundle"
     "SeoBundle:${BUNDLE_PREFIX}/SeoBundle"
     "SiteBundle:${BUNDLE_PREFIX}/SiteBundle"
+    "SitemapBundle:${BUNDLE_PREFIX}/SitemapBundle"
     "TextBundle:${BUNDLE_PREFIX}/TextBundle"
     "TextNodeBundle:${BUNDLE_PREFIX}/Text/NodeBundle"
 )
